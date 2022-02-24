@@ -1,0 +1,22 @@
+@import "@fontsource/lato/400.css";
+@import "@fontsource/lato/700.css";
+@import '@fontsource/noto-sans-mono';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* code */
+
+.code-base {
+    color: #89ddff;
+}
+
+.code-key {
+    color: rgb(128, 203, 196);
+}
+
+.code-identifier {
+    color: rgb(186, 186, 238);
+}
