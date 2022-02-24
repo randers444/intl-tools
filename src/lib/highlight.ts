@@ -6,3 +6,4 @@ hljs.registerLanguage('javascript', javascript);
 export function highlight(code: string) {
     return hljs.highlight(code, { language: 'javascript' }).value;
 }
+//more
