@@ -19,9 +19,9 @@
 	import LocaleCard from '$lib/LocaleCard.svelte';
 	import ResultCard from '$lib/ResultCard.svelte';
 	import OptionsCard from '$lib/OptionsCard.svelte';
-import PageHeader from '$lib/layout/PageHeader.svelte';
-import PageContent from '$lib/layout/PageContent.svelte';
-import UsageCard from '$lib/UsageCard.svelte';
+	import PageHeader from '$lib/layout/PageHeader.svelte';
+	import PageContent from '$lib/layout/PageContent.svelte';
+	import UsageCard from '$lib/UsageCard.svelte';
 
 	const state = new DatetimeState();
 	const result = state.display;
@@ -50,16 +50,9 @@ import UsageCard from '$lib/UsageCard.svelte';
 		</span>
 	</PageHeader>
 	<p class="mt-2">
-
-		<UsageCard code={$code}></UsageCard>
-		
-	<!-- <Card>
-		<CardHeader>Usage</CardHeader>
-		<pre class="p-4 bg-base-300 rounded-lg">
-				<code>{@html $code}</code>
-			</pre>
-	</Card> -->
-	<div class=" mb-4" />
+		<UsageCard code={$code} />
+	</p>
+	<div class="mb-4" />
 
 	<ResultCard>{$result}</ResultCard>
 	<div class="m-16" />
@@ -102,4 +95,4 @@ import UsageCard from '$lib/UsageCard.svelte';
 	<LocaleCard on:locale={(event) => state.locale.set(event.detail)} />
 
 	<OptionsCard {state} options={DATETIME_FORMAT_OPTIONS} />
-	</PageContent>
+</PageContent>

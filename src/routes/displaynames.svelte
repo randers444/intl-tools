@@ -7,6 +7,7 @@
 	import Menu from '$lib/Menu.svelte';
 	import PageHeader from '$lib/layout/PageHeader.svelte';
 	import PageContent from '$lib/layout/PageContent.svelte';
+import PendingCard from '$lib/PendingCard.svelte';
 </script>
 
 <svelte:head>
@@ -23,4 +24,6 @@
 			The <code>Intl.DateTimeFormat</code> object enables the consistent translation of language, region and script display names.
 		</span>
 	</PageHeader>
+
+	<PendingCard></PendingCard>
 </PageContent>

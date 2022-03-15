@@ -45,5 +45,6 @@
 
 		<h1 class="text-xl my-2 mt-6">It's an excuse.</h1>
 		<p>It was a reasonable project to use to learn some Svelte. I'm still learning.</p>
+		<p>If you're curious, here's the repo: <a href="https://github.com/randers444/intl-tools">Github Link</a></p>
 	</div>
 </PageContent>

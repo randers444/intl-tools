@@ -7,6 +7,7 @@
 	import Menu from '$lib/Menu.svelte';
 	import PageHeader from '$lib/layout/PageHeader.svelte';
 	import PageContent from '$lib/layout/PageContent.svelte';
+import PendingCard from '$lib/PendingCard.svelte';
 </script>
 
 <svelte:head>
@@ -23,4 +24,5 @@
 			The <code>Intl.Locale</code> object is a standard built-in property of the Intl object that represents a Unicode locale identifier.
 		</span>
 	</PageHeader>
+	<PendingCard></PendingCard>
 </PageContent>

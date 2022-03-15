@@ -7,6 +7,7 @@
 	import Menu from '$lib/Menu.svelte';
 	import PageHeader from '$lib/layout/PageHeader.svelte';
 	import PageContent from '$lib/layout/PageContent.svelte';
+import PendingCard from '$lib/PendingCard.svelte';
 </script>
 
 <svelte:head>
@@ -23,4 +24,5 @@
 			The <code>Intl.ListFormat</code> object enables language-sensitive list formatting.
 		</span>
 	</PageHeader>
+	<PendingCard></PendingCard>
 </PageContent>

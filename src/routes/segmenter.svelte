@@ -7,6 +7,7 @@
 	import Menu from '$lib/Menu.svelte';
 	import PageHeader from '$lib/layout/PageHeader.svelte';
 	import PageContent from '$lib/layout/PageContent.svelte';
+import PendingCard from '$lib/PendingCard.svelte';
 </script>
 
 <svelte:head>
@@ -24,4 +25,5 @@
 			to get meaningful items (graphemes, words or sentences) from a string.
 		</span>
 	</PageHeader>
+	<PendingCard></PendingCard>
 </PageContent>
